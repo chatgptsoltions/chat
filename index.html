@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1368581291553990');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1368581291553990&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
+  <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -33,7 +17,8 @@ fbq('track', 'PageView');
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=632005943229511&ev=PageView&noscript=1"
 /></noscript>
-
+<!-- End Meta Pixel Code -->
+<head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>8000+ ChatGPT Prompt Bundle - Instant Download</title>
@@ -431,14 +416,14 @@ src="https://www.facebook.com/tr?id=632005943229511&ev=PageView&noscript=1"
       <div class="highlight-stats">
         <span>🔥 <b id="viewer-count">157</b> viewing now</span>
         <span>⚡ Only <b id="stock-count">12</b> left at this price</span>
-        <span>⏰ <b id="timer">23:59</b> remaining</span>
+        <span>⏰ <b id="timer">18:00:00</b> remaining</span>
       </div>
 
       <div class="cta-section">
         <p>Get lifetime access today for just:</p>
-        <div class="price-wrap"><span class="original">₹1499</span><span class="discount">₹399</span></div>
+        <div class="price-wrap"><span class="original">₹1499</span><span class="discount">₹449</span></div>
         <form>
-          <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QhPfg45rb5kzJu" async></script>
+          <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_RPtuExj730wPEL" async> </script>
         </form>
       </div>
 
@@ -521,17 +506,17 @@ src="https://www.facebook.com/tr?id=632005943229511&ev=PageView&noscript=1"
   </div>
 
   <div class="sticky-cta">
-    <div class="price-wrap"><span class="original">₹1499</span><span class="discount">₹399</span></div>
+    <div class="price-wrap"><span class="original">₹1499</span><span class="discount">₹449</span></div>
     <form>
-      <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_QhPfg45rb5kzJu" async></script>
+      <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_RPtuExj730wPEL" async> </script>
     </form>
   </div>
 
   <script>
-    // Improved Timer
+    // Updated Timer - Now starts from 18 hours
     (() => {
       const el = document.getElementById('timer');
-      const end = Date.now() + 24*60*60*1000;
+      const end = Date.now() + 18*60*60*1000; // Changed from 24 to 18 hours
       
       function updateTimer() {
         let ms = end - Date.now();
@@ -546,7 +531,8 @@ src="https://www.facebook.com/tr?id=632005943229511&ev=PageView&noscript=1"
         } else {
           const h = String(Math.floor(ms/3600000)).padStart(2,'0');
           const m = String(Math.floor((ms%3600000)/60000)).padStart(2,'0');
-          el.textContent = `${h}:${m}`;
+          const s = String(Math.floor((ms%60000)/1000)).padStart(2,'0');
+          el.textContent = `${h}:${m}:${s}`;
         }
       }
       
@@ -587,4 +573,3 @@ src="https://www.facebook.com/tr?id=632005943229511&ev=PageView&noscript=1"
   </script>
 </body>
 </html>
-
